@@ -718,23 +718,6 @@
 /obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/commons/locker)
-"anL" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/red/line,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
-/area/station/maintenance/space_hut)
 "anS" = (
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
@@ -2493,10 +2476,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron,
 /area/station/cargo/lobby)
-"aUn" = (
-/obj/effect/spawner/random/structure/grille,
-/turf/open/space/basic,
-/area/space/nearstation)
 "aUt" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/blue/filled/warning{
@@ -15793,21 +15772,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/commons/lounge)
-"fGM" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/red/line,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
-	},
-/obj/structure/railing,
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "fGN" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
@@ -28864,14 +28828,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
-"kgg" = (
-/obj/structure/railing,
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space/nearstation)
 "kgr" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/cable,
@@ -32463,7 +32419,6 @@
 /area/station/hallway/primary/central)
 "luN" = (
 /obj/machinery/airalarm/directional/west,
-/obj/structure/closet/secure_closet/security/med,
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/medical)
@@ -36374,22 +36329,11 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
 "mRY" = (
-/obj/machinery/door/window/left/directional/north{
-	name = "Mass Driver";
-	req_access = list("maint_tunnels")
-	},
-/obj/machinery/door/window/left/directional/south{
-	name = "Mass Driver";
-	req_access = list("maint_tunnels")
-	},
 /obj/effect/turf_decal/loading_area{
 	dir = 1
 	},
-/obj/machinery/computer/pod/old/mass_driver_controller/shack{
-	pixel_x = -24
-	},
 /turf/open/floor/plating,
-/area/station/maintenance/space_hut)
+/area/space)
 "mSk" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -58411,12 +58355,10 @@
 	pixel_x = 9
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/autolathe,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
 "uBC" = (
-/obj/machinery/mass_driver/shack{
-	dir = 8
-	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -64055,7 +63997,6 @@
 /area/station/science/robotics/lab)
 "wsQ" = (
 /obj/structure/reagent_dispensers/wall/peppertank/directional/north,
-/obj/structure/closet/secure_closet/security,
 /obj/machinery/firealarm/directional/east,
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 4
@@ -79476,7 +79417,7 @@ aaa
 aaa
 aaa
 aaa
-kgg
+aaa
 aaa
 aaa
 aaa
@@ -79733,7 +79674,7 @@ aaa
 aaa
 aaa
 aaa
-fGM
+aaa
 aaa
 aaa
 aaa
@@ -79989,8 +79930,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-fGM
+rrt
+rrt
 rrt
 rrt
 rrt
@@ -80247,7 +80188,7 @@ aaa
 aaa
 aaa
 tsd
-anL
+tsd
 tsd
 tsd
 tsd
@@ -81558,7 +81499,7 @@ aaa
 aaa
 bvY
 aaa
-aaa
+lMJ
 aaa
 aaa
 lMJ
@@ -81815,10 +81756,10 @@ lMJ
 lMJ
 cvY
 aaa
+lMJ
 aaa
 aaa
-aaa
-aaa
+lMJ
 aaa
 aaa
 aaa
@@ -83751,7 +83692,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+lMJ
 aaa
 aaa
 aaa
@@ -84008,7 +83949,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+lMJ
 aaa
 aaa
 aaa
@@ -84268,9 +84209,9 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
+fzl
+fzl
+fzl
 aaa
 aaa
 aaa
@@ -84526,7 +84467,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+lMJ
 aaa
 aaa
 aaa
@@ -84781,9 +84722,9 @@ aaa
 aaa
 aaa
 aaa
+fzl
 aaa
-aaa
-aaa
+lMJ
 aaa
 aaa
 aaa
@@ -87345,10 +87286,10 @@ aaa
 lMJ
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+rrt
+rrt
+rrt
+rrt
 rfY
 aaa
 lMJ
@@ -87601,8 +87542,8 @@ rrt
 aaa
 lMJ
 aaa
-aaa
-aaa
+rrt
+rrt
 cmB
 cmB
 cmB
@@ -87858,7 +87799,7 @@ rrt
 aaa
 lMJ
 aaa
-aaa
+rrt
 cmB
 cmB
 opF
@@ -88115,7 +88056,7 @@ sfn
 aaa
 lMJ
 aaa
-aaa
+rrt
 cmB
 nNo
 tCC
@@ -88372,7 +88313,7 @@ lMJ
 aaa
 lMJ
 aaa
-aaa
+rrt
 cmB
 sXm
 fiA
@@ -88623,13 +88564,13 @@ aaa
 aaa
 aaa
 lMJ
-aaa
-aaa
-lMJ
+rrt
 aaa
 lMJ
 aaa
+lMJ
 aaa
+rrt
 iOr
 sQq
 rVb
@@ -88765,7 +88706,7 @@ lMJ
 aaa
 lMJ
 aaa
-aaa
+rrt
 aaa
 aaa
 aaa
@@ -88876,9 +88817,9 @@ aaa
 aaa
 rrt
 aaa
-aaa
-aaa
-aaa
+rrt
+rrt
+rrt
 iUv
 suD
 rft
@@ -88895,8 +88836,8 @@ pyy
 jjM
 ilg
 cmB
+rrt
 aaa
-aUn
 aaa
 aaa
 aaa
@@ -89021,8 +88962,8 @@ vcS
 gYU
 vcS
 gYU
-aaa
-aaa
+lMJ
+rrt
 aaa
 aaa
 aaa
@@ -89133,7 +89074,7 @@ aaa
 aaa
 rrt
 aaa
-aaa
+rrt
 suD
 suD
 iUv
@@ -89152,8 +89093,8 @@ fbX
 cnk
 wyn
 cmB
+rrt
 aaa
-aUn
 aaa
 aaa
 aaa
@@ -89279,7 +89220,7 @@ gYU
 wlj
 rIG
 aaa
-aaa
+rrt
 aaa
 aaa
 aaa
@@ -89390,7 +89331,7 @@ aaa
 aaa
 rrt
 aaa
-aaa
+rrt
 suD
 hkV
 tKa
@@ -89536,7 +89477,7 @@ gYU
 ppJ
 gYU
 aaa
-aaa
+rrt
 aaa
 aaa
 aaa
@@ -89792,12 +89733,12 @@ klt
 fkP
 mhR
 gYU
+lMJ
+rrt
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
+rrt
 aaa
 aaa
 aaa
@@ -89903,7 +89844,7 @@ aaa
 aaa
 aaa
 rrt
-aaa
+rrt
 suD
 iFz
 jmv
@@ -90050,7 +89991,7 @@ dLy
 fNR
 rIG
 aaa
-aaa
+rrt
 aaa
 aaa
 aaa
@@ -90160,7 +90101,7 @@ aaa
 aaa
 aaa
 rrt
-aaa
+rrt
 suD
 tGX
 tYm
@@ -90564,15 +90505,15 @@ dLy
 tPI
 rIG
 aaa
+rrt
+aaa
+aaa
+rrt
 aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+rrt
 aaa
 aaa
 aaa
@@ -90931,7 +90872,7 @@ aaa
 aaa
 aaa
 rrt
-aaa
+rrt
 suD
 iFz
 nCI
@@ -91188,7 +91129,7 @@ aaa
 aaa
 aaa
 rrt
-aaa
+rrt
 suD
 bzv
 gLb
@@ -91701,7 +91642,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+rrt
 aaa
 aaa
 iUv
@@ -91958,7 +91899,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+rrt
 aaa
 aaa
 aaa
@@ -95444,7 +95385,7 @@ pVZ
 dDo
 hQu
 gRb
-aaa
+aaf
 aaf
 aaa
 aaa
@@ -95701,7 +95642,7 @@ aAS
 dDo
 biA
 gRb
-aaa
+aaf
 aaf
 aaa
 aaa
@@ -95958,7 +95899,7 @@ ewB
 dDo
 hQu
 gRb
-aaa
+aaf
 aaf
 aaa
 aaa
@@ -97886,7 +97827,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+rrt
 aaa
 aaa
 aaa
@@ -98143,7 +98084,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+rrt
 aaa
 gdb
 gdb
@@ -99171,7 +99112,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+rrt
 aaa
 gdb
 nMV
@@ -99428,7 +99369,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+rrt
 aaa
 gdb
 ksg
@@ -100456,7 +100397,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+rrt
 tLb
 gdb
 ikZ
@@ -100713,7 +100654,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+rrt
 aaa
 aaa
 aaa
@@ -107275,7 +107216,7 @@ rxH
 qOw
 lMJ
 lMJ
-aaa
+lMJ
 lMJ
 rrt
 aaa
@@ -116952,7 +116893,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aaf
 aaa
 aaa
 aaa
@@ -117209,7 +117150,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aaf
 aaa
 aaa
 aaa
@@ -117462,9 +117403,9 @@ cpH
 lMJ
 lMJ
 lMJ
-aaa
-aaa
-aaa
+aaf
+aaf
+aaf
 iGq
 jFr
 aaf
@@ -117980,7 +117921,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aaf
 aaa
 aaa
 aaa
@@ -118488,7 +118429,7 @@ nsC
 lMJ
 aox
 lMJ
-aaa
+aaf
 lMJ
 lMJ
 lMJ
@@ -119265,7 +119206,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aaf
 aaa
 aaa
 aaa
@@ -119517,8 +119458,8 @@ lMJ
 aox
 lMJ
 lMJ
-aaa
-aaa
+aaf
+aaf
 lMJ
 xYH
 lMJ
@@ -119535,10 +119476,10 @@ aox
 lMJ
 lMJ
 lMJ
-aaa
-aaa
-aaa
-aaa
+aaf
+aaf
+aaf
+aaf
 lMJ
 aox
 lMJ
@@ -120543,11 +120484,11 @@ ghL
 anS
 lMJ
 cpH
-aaa
-aaa
-aaa
-aaa
-aaa
+aaf
+aaf
+aaf
+aaf
+aaf
 lMJ
 gnh
 qjC
@@ -120560,14 +120501,14 @@ osz
 qot
 aaa
 lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
 cpH
 lMJ
 nsC
